@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+  color: #003300;
+  /* font-family: Oswald, Arial, Helvetica, sans-serif; */
+  font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", Times, serif;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 10px;
+  font-size: x-large;
+  background: linear-gradient(white, #afceaf);
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  color: #006400;
+}
+
+.warning {
+  background-color: #fffbeb; /* Light yellow background */
+  border: 1px solid #fcd34d; /* Yellow border */
+  color: #7a4c00; /* Dark yellow/brown text */
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: large;
+}
+
+.content-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-right: 10px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 30px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+footer {
+  padding: 10px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+.social-icon {
+  /* width: 30px;
+  height: 30px; */
+  cursor: pointer;
+  border-radius: 10px;
+  
+
+}
+.social-icon:hover {
+  opacity: 0.7;
+}

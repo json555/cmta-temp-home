@@ -15,8 +15,12 @@ body {
   font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", Times, serif;
   padding: 10px;
   font-size: x-large;
+  min-height: 100vh;
   background: linear-gradient(white, #afceaf);
   font-weight: normal;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -73,6 +77,9 @@ header img {
   padding-bottom: 20px;
   border-radius: 10px;
   background-color: white;
+
+  flex: 1;
+
 }
 @media (max-width: 768px) {
   .content-container {
